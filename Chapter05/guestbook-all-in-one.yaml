@@ -98,7 +98,6 @@ metadata:
     app: guestbook
     tier: frontend
 spec:
-  # uncomment the line below to create a Load Balanced service
   type: LoadBalancer
   ports:
   - port: 80
